@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+    <style>
+        body {
+            margin: 40px 20px;
+        }
+
+        .vertical-nav {
+            outline: 2px solid black;
+            outline-offset: 10px;
+            background-color: lightskyblue;
+            width: 200px;
+            margin: 20px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        .active {
+            background-color: orange;
+            color: white;
+        }
+
+        /* Style for the navigation bar */
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: lightgrey;
+            overflow: hidden;
+            width: 300px;
+        }
+
+        /* Style for the navigation bar items */
+        li.navitem {
+            float: left;
+        }
+
+        /* Style for the links in the navigation bar */
+        li.navitem a {
+            display: block;
+            color: blue;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            background-color: lightgrey;
+        }
+
+        /* Style for the selected item */
+        li.navitem a.selected {
+            background-color: grey;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <p>&emsp;Vertical Navigation Bar</p>
+    <div class="vertical-nav">
+        <a href="#" class="active">Home</a>
+        <a href="#">Java</a>
+        <a href="#">HTML</a>
+        <a href="#">Bootstrap</a>
+    </div>
+    <br><br>
+    <p>&emsp;Horizontal Navigation Bar</p>
+    <ul class="navbar">
+        <li class="navitem"><a href="#" class="selected">Home</a></li>
+        <li class="navitem"><a href="#">Java</a></li>
+        <li class="navitem"><a href="#">HTML</a></li>
+        <li class="navitem"><a href="#">CSS</a></li>
+    </ul>
+</body>
+</html>
