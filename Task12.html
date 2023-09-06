@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7 CSS</title>
+    <style>
+        body {
+            font-size: large;
+            text-align: center;
+            background-color: #A22B55ff;
+            color: white;
+            margin: 120px;
+        }
+
+        div {
+            background-color: #75203Fff;
+            padding-top: 35px ;
+            width: 600px;
+            height: 420px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 0 auto;
+            /* border: 1px solid #000; */
+            background-color: #75203Fff;
+            color: white;
+        }
+/* tr{
+    border-collapse: collapse;
+
+} */
+        th,
+        td { 
+            border-collapse: collapse;
+            /* border: 1px solid #000; */
+            padding: 10px;
+        }
+
+        /* tr{
+            padding: 0px 50px;
+        } */
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        input[type="button"] {
+            margin: 3px;
+            padding: 10px 180px;
+            font-size: large;
+            font-weight: bold;
+            background-color: white;
+            border: none;
+            color: black;
+            cursor: pointer;
+            border: 2px solid #000;
+            border-radius: 10px;
+        }
+
+        input[type="button"]:hover {
+            background-color: silver;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <form style="margin-top: 150px;"> -->
+        
+<center>
+    <div>
+        
+            <table>
+                <tr>
+                    <td><label for="fn">Name:</label></td>
+                    <td><input type="text" name="nm" placeholder="your name" /></td>
+                </tr>
+                <tr>
+                    <td><label for="un">Email:</label></td>
+                    <td><input type="email" name="un" placeholder="your email" /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="pwd">Password:</label><br></td>
+                    <td><input type="password" id="pwd" name="pwd"></td>
+                </tr>
+                <tr>
+                    <td><label for="ag">Phone Number:</label></td>
+                    <td><input type="number" name="pn" /></td>
+                </tr>
+                <tr>
+                    <td><label for="gen">Gender:</label></td>
+                    <td><label for="Gender">Male:</label>
+                        <input type="radio" name="Gender" value="Male">
+                        <label for="Gender">Female:</label>
+                        <input type="radio" name="Gender" value="Female">
+                        <label for="Gender">Other:</label>
+                        <input type="radio" name="Gender" value="Other">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Language:</label></td>
+                    <td>
+                        <select name='Choose your Language' value="Choose your Language">
+                            <option>Select Language</option>
+                            <option>English</option>
+                            <option>Hindi</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="st">Zipcode</label></td>
+                    <td><input type="number" name="zp" /></td>
+                </tr>
+                <tr>
+                    <td><label for="ad">About</label></td>
+                    <td><textarea placeholder="Write About Yourself"></textarea></td>
+                </tr>
+            </table>
+            <!-- <br> -->
+            <input type="button" value="Register" />
+
+    </div>
+</center>
+
+    <!-- </form> -->
+    <!-- <br>
+    <center>
+        <input type="button" value="Register" />
+    </center> -->
+</body>
+
+</html>
